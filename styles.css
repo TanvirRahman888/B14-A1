@@ -39,3 +39,78 @@ nav ul a {
 .primary-button:hover {
   background: #1dd82d;
 }
+
+header {
+  background:
+    linear-gradient(90deg, rgba(0, 0, 0, 0.6) 30%, rgba(0, 0, 0, 0) 70%),
+    url("./assets/banner.jpg");
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+header .header-top{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  color: #fff;
+}
+header .header-top p{
+  max-width: 50%;
+  text-align: center;
+}
+
+main{
+  margin: 80px 40px;
+}
+
+main div h1{
+  text-align: center;
+}
+
+.speakers-gallery{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 10px;
+  margin-top: 56px;
+
+}
+
+.speakers-gallery img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.speaker{
+  text-align: left;
+  border: 1px solid #bdbdbd;
+  border-radius: 10px;
+  z-index: 100;
+}
+
+.speaker h5 {
+  color: #2563eb;
+  margin: 10px 5px;
+}
+
+.speaker h3 {
+  color: #111827;
+  margin: 10px 5px;
+}
+
+.speaker h3:hover {
+  color: #2287ab;
+}
+
+.speaker p {
+  color: #555;
+  margin: 10px 5px;
+}
+
