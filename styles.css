@@ -52,7 +52,7 @@ header {
   flex-direction: column;
   justify-content: space-around;
 }
-header .header-top{
+header .header-top {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -60,25 +60,24 @@ header .header-top{
   justify-content: center;
   color: #fff;
 }
-header .header-top p{
+header .header-top p {
   max-width: 50%;
   text-align: center;
 }
 
-main{
+main {
   margin: 80px 40px;
 }
 
-main div h1{
+main div h1 {
   text-align: center;
 }
 
-.speakers-gallery{
+.speakers-gallery {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); 
+  grid-template-columns: repeat(2, 1fr);
   gap: 10px;
   margin-top: 56px;
-
 }
 
 .speakers-gallery img {
@@ -88,7 +87,7 @@ main div h1{
   border-radius: 10px 10px 0px 0px;
 }
 
-.speaker{
+.speaker {
   text-align: left;
   border: 1px solid #bdbdbd;
   border-radius: 10px;
@@ -114,3 +113,154 @@ main div h1{
   margin: 10px 5px;
 }
 
+/* Pricing Section */
+.pricing-section {
+  padding: 80px 20px;
+}
+
+.pricing-section-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.pricing-section-header h2 {
+  margin: 0 0 8px;
+  font-size: 48px;
+  font-weight: 800;
+  color: #0d1b2a;
+}
+
+.pricing-section-header p {
+  margin: 0;
+  font-size: 16px;
+  color: #575757;
+}
+
+.pricing-section-cards {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 24px;
+}
+
+.pricing-section-regular-card,
+.pricing-section-popular-card {
+  width: 100%;
+  padding: 40px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.pricing-card-top {
+  width: 100%;
+}
+
+.plan-name {
+  margin: 0 0 10px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #888888;
+}
+
+.pricing-card-top h2 {
+  margin: 0;
+  font-size: 44px;
+  font-weight: 800;
+  color: #0d1b2a;
+}
+
+.plan-subtitle {
+  margin: 12px 0 0;
+  font-size: 13px;
+  color: #888888;
+}
+
+/* Divider */
+.pricing-section-regular-card hr,
+.pricing-section-popular-card hr {
+  width: 100%;
+  height: 1px;
+  border: none;
+  background-color: #e5e7eb;
+  margin: 20px 0px;
+}
+
+/* List */
+.pricing-card-list {
+  width: 100%;
+}
+
+.pricing-card-list ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.pricing-card-list li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #333333;
+}
+
+.pricing-card-list li::marker {
+  color: #2563eb;
+  font-size: 12px;
+}
+
+/* Button */
+.pricing-card-button {
+  width: 100%;
+  margin-top: auto;
+  padding-top: 10px;
+}
+
+.pricing-card-button button {
+  width: 100%;
+  height: 46px;
+  background-color: #ffffff;
+  border: 1px solid #2563eb;
+  border-radius: 8px;
+  color: #2563eb;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.pricing-card-button button:hover {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+/* popular card highlighted */
+.pricing-section-popular-card {
+  background-color: #0d1b2a;
+}
+
+.pricing-section-popular-card .plan-name {
+  color: #93c5fd;
+}
+
+.pricing-section-popular-card h2 {
+  color: #ffffff;
+}
+.pricing-section-popular-card .plan-subtitle {
+  color: #ffffff, 0.5;
+}
+
+.pricing-section-popular-card .pricing-card-list li {
+  color: #ffffffc6;
+}
+
+.pricing-section-popular-card .pricing-card-button button {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+.pricing-section-popular-card .pricing-card-button button:hover {
+  background-color: #ffffff;
+  color: #2563eb;
+}
