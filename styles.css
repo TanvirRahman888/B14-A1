@@ -100,11 +100,13 @@ main div h1 {
 .speaker h5 {
   color: #2563eb;
   margin: 10px 5px;
+  padding: 0px  24px;
 }
 
 .speaker h3 {
   color: #111827;
   margin: 10px 5px;
+  padding: 0px  24px;
 }
 
 .speaker h3:hover {
@@ -114,6 +116,7 @@ main div h1 {
 .speaker p {
   color: #555;
   margin: 10px 5px;
+  padding: 0px  24px;
 }
 
 /* Pricing Section */
