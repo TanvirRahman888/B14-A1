@@ -493,10 +493,12 @@ main div h1 {
   text-align: center;
 }
 
-.footer-bottom p {
+.footer-bottom p, a {
   margin: 0;
   font-size: 15px;
   color: #94a3b8;
+  text-decoration: none;
 }
+
 
 
